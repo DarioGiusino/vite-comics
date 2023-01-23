@@ -6,11 +6,12 @@ export default {}
     <section id="jumbo"></section>
 </template>
 
-<style>
+<style lang="scss" scoped>
+@use '../../assets/scss/partials/mixins' as *;
+
 #jumbo {
     background-image: url('../../assets/img/jumbotron.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include background-reset;
     height: 350px;
 }
 </style>

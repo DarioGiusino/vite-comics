@@ -27,3 +27,9 @@
     align-items: stretch;
   }
 }
+
+// background image reset
+@mixin background-reset {
+  background-repeat: no-repeat;
+  background-size: cover;
+}

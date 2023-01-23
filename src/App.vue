@@ -2,16 +2,14 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppNav from './components/AppNav.vue';
+import AppFooter from './components/AppFooter.vue';
 import { headerLinks, comics } from './data/index.js';
 export default {
   name: 'Comics Site',
   data() {
-    return {
-      headerLinks,
-      comics
-    }
+    return { headerLinks, comics }
   },
-  components: { AppHeader, AppMain, AppNav }
+  components: { AppHeader, AppMain, AppNav, AppFooter }
 }
 </script>
 
@@ -19,6 +17,7 @@ export default {
   <app-header :links="headerLinks"></app-header>
   <app-main :comics="comics"></app-main>
   <app-nav></app-nav>
+  <app-footer></app-footer>
 </template>
 
 <style lang="scss">
