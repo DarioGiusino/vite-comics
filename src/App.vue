@@ -17,7 +17,7 @@ export default {
 
 <template>
   <app-header :links="headerLinks"></app-header>
-  <app-main></app-main>
+  <app-main :comics="comics"></app-main>
   <app-nav></app-nav>
 </template>
 
