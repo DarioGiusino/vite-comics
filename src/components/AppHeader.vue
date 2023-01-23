@@ -28,7 +28,10 @@ export default {
 header {
     @include flex('between', 'center');
     height: $height-s;
-    margin: 20px auto;
+
+    img {
+        transform: scale(0.5);
+    }
 
     nav {
         height: 100%;
@@ -49,15 +52,15 @@ header {
                     height: 100%;
                     padding: 0px 10px;
                     border-bottom: 5px solid transparent;
+
+                    &.current {
+                        color: $blue;
+                        border-color: $blue;
+                    }
                 }
 
             }
         }
     }
-}
-
-.current {
-    color: $blue;
-    border-color: $blue;
 }
 </style>
