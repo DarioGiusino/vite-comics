@@ -27,7 +27,7 @@ export default {
 
 header {
     @include flex('between', 'center');
-    height: 100px;
+    height: $height-s;
     margin: 20px auto;
 
     nav {
