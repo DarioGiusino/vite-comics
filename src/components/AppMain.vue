@@ -5,7 +5,7 @@ export default {}
 <template>
     <main>
         <div class="container">
-            Content goes here
+            Content goes here (23/01)
         </div>
     </main>
 </template>
