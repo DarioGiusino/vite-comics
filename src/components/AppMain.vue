@@ -1,9 +1,13 @@
 <script>
-export default {}
+import Jumbo from './main/jumbo.vue'
+export default {
+    components: { Jumbo }
+}
 </script>
 
 <template>
     <main>
+        <jumbo></jumbo>
         <div class="container">
             Content goes here (23/01)
         </div>
@@ -12,7 +16,6 @@ export default {}
 
 <style lang="scss">
 main {
-    height: 100px;
     background-color: #000;
     color: #fff;
     line-height: 100px;
