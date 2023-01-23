@@ -1,9 +1,7 @@
 <script>
 export default {
     name: 'AppHeader',
-    props: {
-        links: Array
-    }
+    props: { links: Array }
 }
 </script>
 
